@@ -1,0 +1,48 @@
+refactor with levels and splash screens (level menu) #coding
+mouse control #coding
+tap and swipe control #coding
+get rid of meanie quantity text #coding
+implement pause #coding
+refactor with a game class #coding
+animate characters #coding
+make a minY for a status bar with progressbars instead of numbers and text #coding
+make a maxY (maybe for the second status bar) #coding
+highest score table #coding
+animate characters #coding
+
+
+take effect for a certain time period #bonuses
+emit donuts that attract meanies (distract from asteroids) #bonuses #donuts #meanies
+increase AsteroEat speed #bonuses #AsteroEat
+decrease meanies speed #bonuses #meanies
+blind all meanies #bonuses #meanies
+decrease meanie generation frequency #bonuses #meanies
+eliminate all meanies of a colour #bonuses #meanies
+eliminate all meanies #bonuses #meanies
+eliminate any meanies upon collision #bonuses #meanies
+eliminate meanies of a colour upon collision #bonuses #meanies
+make AsteroEat immune to meanies (no bonus decrease) #bonuses #AsteroEat
+make AsteroEat attract asteroids #bonuses #AsteroEat
+decrease view radius of meanies  #bonuses #meanies
+other bonuses like in Breakout #bonuses
+a portal to play a random level and return to the current one #bonuses #levels
+a portal to mark the current level complete with the current score and go to the next level #bonuses #levels
+a portal to mark the current level complete with the current score and go to a random level #bonuses #levels
+
+levels are standalone different games with different worlds #levels
+increase meanie generation speed with score growth #inner-levels #complexity
+a quest room #inner-levels
+repeat a game (level) #levels
+difficulty levels #levels #complexity
+
+different view radius #meanies
+blue just float #meanies
+violet pursue asteroids #meanies
+red pursue AsteroEat (and asteroids) #meanies
+
+A's speed #AsteroEat #parameters
+A's immunity #AsteroEat #parameters
+meanies' speed #meanies #parameters
+meanies' generation frequency #meanies #parameters
+meanies' view radius #meanies #parameters
+meanies' vision #meanies #parameters

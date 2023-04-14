@@ -410,14 +410,52 @@ while is_working:
     # Redraw the game
     pygame.display.flip()
 
-# я б із ростом балів підвищував швидкість створення астероїдів; додав би якісь печенюшки, які може викидувати чудик, щоб відволікати ненажер...), ще буде заставка, кнопки для повтору, рекорди і таке інше
-# а можна додати ще якісь штуки, з якими не можна стикатися нікому, тоді вони і ненажер видалятимуть
-# можна зробили ненажер різного кольору. сині пливуть, фіолетові ганяються за астероїдами, червоні - ще й за гравцем
-# а можна зробити різні бонуси, що дають різні скіли на деякий час, як в Breakout. наприклад, не зменшують рахунок після зіткнення з ненажерою, вилітають штуки, які відволікають ненажер або знищують їх, а можна таку штуку запустити, яка прибирає одразу всіх ненажер, і таку, що зменшує швидкість їх появи чи руху. коротше, вже є початок пригод АстероЇда.
+# CODING
+# - refactor with levels and splash screens (level menu)
+# - mouse control
+# - tap and swipe control
+# - get rid of meanie quantity text
+# - implement pause
+# - refactor with a game class
+# - animate characters
+# - make a minY for a status bar with progressbars instead of numbers and text
+# - make a maxY (maybe for the second status bar)
+# - highest score table
+# - animate characters
 
-# і це лише а задумка така і лишається, як кілька років тому, що рівні гри будуть геть різними.
+# BONUSES
+# - take effect for a certain time period
+# - emit donuts that attract meanies (distract from asteroids)
+# - increase AsteroEat speed
+# - decrease meanies speed
+# - blind all meanies
+# - decrease meanie generation frequency
+# - eliminate all meanies of a colour
+# - eliminate all meanies
+# - eliminate any meanies upon collision
+# - eliminate meanies of a colour upon collision
+# - make AsteroEat immune to meanies (no bonus decrease)
+# - make AsteroEat attract asteroids
+# - decrease view radius of meanies
+# - other bonuses like in Breakout
 
-# це один рівень гри. 
+# LEVELS
+# - levels are standalone different games with different worlds
+# - levels within a level:
+#   - increase meanie generation speed with score growth
+# - a quest room
+# - repeat a game (level)
+# - difficulty levels
 
-# ще можна зробити кімнати з квестами. і кожен рівень, як окрема гра.
-# А, ну і згодом я зроблю персонажі анімованими. Ніжки рухатимуться, очки крутитимуться, а на астероїдах рухатимуться плями. Губи теж анімую
+# ENEMIES
+# - different view radius
+# - different colours: blue just float, violet pursue asteroids, red pursue AsteroEat (amd asteroids)
+
+# PARAMETERS
+# - A's speed
+# - A's immunity
+# - meanies' speed
+# - meanies' generation frequency
+# - meanies' view radius
+# - meanies' vision
+
